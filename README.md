@@ -1,4 +1,4 @@
-# Lenovo ThinkPad T480 - OpenCore Configuation
+# Lenovo ThinkPad T480 i7 - OpenCore Configuation
 
 <img align="right" src="https://dl.exploitox.de/t480-oc/Hackintosh-T480-Sonoma.png" alt="macOS Sonoma running on the T480" width="425">
 
@@ -11,7 +11,7 @@
 <p align="center">
    <strong>Status: Maintained</strong>
    <br />
-   <strong>Version: </strong>1.3.0
+   <strong>Version: </strong>1.3.0b1
    <br />
    <a href="https://github.com/valnoxy/t480-oc/releases"><strong>Download now »</strong></a>
    <br />
@@ -25,7 +25,7 @@
 </br>
 
 ## ⚠️ Disclaimer
-This guide is only for the Lenovo ThinkPad T480. I am NOT responsible for any harm you cause to your device. This guide is provided "as-is" and all steps taken are done at your own risk.
+This guide is only for the Lenovo ThinkPad T480 with i7-8550U. I am NOT responsible for any harm you cause to your device. This guide is provided "as-is" and all steps taken are done at your own risk.
 
 > The ACPI patches and the style of this README are from [EETagent](https://github.com/EETagent/T480-OpenCore-Hackintosh).
 
@@ -33,11 +33,6 @@ This guide is only for the Lenovo ThinkPad T480. I am NOT responsible for any ha
 
 
 &nbsp;
-
-## 💻 Tested devices
-Some users have reported that similar ThinkPads are compatible with this OpenCore configuration. Here is a list of these devices:
-
-- Lenovo ThinkPad T580
 
 ## Introduction
 
@@ -62,12 +57,12 @@ These are the Hardware component I use. But this OpenCore configuation <strong>s
 
 | Category  | Component                            |
 | --------- | ------------------------------------ |
-| CPU       | Intel Core i5-8350U                  |
-| GPU       | Intel UHD Graphics 620               |
+| CPU       | Intel Core i7-8550U                  |
+| GPU       | Intel UHD Graphics 620(+MX150)       |
 | SSD       | Intel SSDPEKKF256G8L M.2 NVMe SSD    |
-| Memory    | 16GB DDR4 2400Mhz                     |
+| Memory    | 16GB Samsung M471A2K43CB1 2400Mhz    |
 | Camera    | 720p Camera                          |
-| WiFi & BT | Dell DW1830 (BCM43602)               |
+| WiFi & BT | Intel Wireless-AC 8265               |
 
 </details>  
 
